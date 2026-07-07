@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yeshwanth M — Enterprise Sales Leader · Cybersecurity (SIEM/SOC) for Regulated &amp; Government Sectors</title>
+<meta name="description" content="Yeshwanth M — Enterprise sales leader closing high-ticket SIEM/SOC and critical infrastructure deals across regulated industries and central government. 15+ years of pipeline execution.">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./index_files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./index_files/all.min.css">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --void:#08080c;
+  --charcoal:#111116;
+  --elevated:#17171f;
+  --elevated-2:#1d1d27;
+  --line: rgba(240,238,250,0.09);
+  --line-strong: rgba(240,238,250,0.16);
+  --text:#eeeef3;
+  --text-muted:#94909f;
+  --text-faint:#5c5966;
+  --accent:#8657ff;
+  --accent-bright:#b494ff;
+  --accent-dim:#4c2fa0;
+  --accent-glow: rgba(134,87,255,0.45);
+  --font-display:'Unbounded', sans-serif;
+  --font-body:'Space Grotesk', sans-serif;
+  --font-mono:'Space Mono', monospace;
+  --ease: cubic-bezier(.16,.84,.44,1);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--void);
+  color:var(--text);
+  font-family:var(--font-body);
+  line-height:1.6;
+  overflow-x:hidden;
+  cursor:none;
+}
+body.touch-device{cursor:auto;}
+::selection{background:var(--accent-dim);color:#fff;}
+
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+img{max-width:100%;display:block;}
+button{font-family:inherit;border:none;background:none;color:inherit;cursor:none;}
+body.touch-device button{cursor:pointer;}
+
+/* base grain + mesh */
+body::before{
+  content:'';
+  position:fixed;inset:0;
+  z-index:0;
+  pointer-events:none;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 15% 8%, rgba(134,87,255,0.16), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 88% 22%, rgba(76,47,160,0.18), transparent 60%),
+    radial-gradient(ellipse 70% 60% at 50% 95%, rgba(134,87,255,0.10), transparent 65%);
+}
+.grain{
+  position:fixed;inset:0;z-index:1;pointer-events:none;opacity:0.05;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.wrap{position:relative;z-index:2;}
+section{padding:8rem 6vw;position:relative;}
+@media(max-width:768px){section{padding:5rem 6vw;}}
+.section-inner{max-width:1180px;margin:0 auto;}
+
+.eyebrow{
+  font-family:var(--font-mono);
+  font-size:0.72rem;
+  letter-spacing:0.22em;
+  text-transform:uppercase;
+  color:var(--accent-bright);
+  display:flex;align-items:center;gap:0.6rem;
+  margin-bottom:1.4rem;
+}
+.eyebrow::before{
+  content:'';width:22px;height:1px;background:var(--accent);
+}
+h2.section-title{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:clamp(2rem, 4.2vw, 3.2rem);
+  letter-spacing:-0.01em;
+  margin-bottom:2.6rem;
+  max-width:18ch;
+}
+
+/* ============ CUSTOM CURSOR ============ */
+.cursor-dot,.cursor-ring{
+  position:fixed;top:0;left:0;
+  border-radius:50%;
+  pointer-events:none;
+  z-index:9999;
+  transform:translate(-50%,-50%);
+}
+.cursor-dot{
+  width:6px;height:6px;background:var(--accent-bright);
+}
+.cursor-ring{
+  width:34px;height:34px;
+  border:1px solid var(--accent);
+  transition:width 0.25s var(--ease), height 0.25s var(--ease), opacity 0.25s var(--ease), border-color 0.25s var(--ease);
+  opacity:0.7;
+}
+.cursor-ring.hover{
+  width:64px;height:64px;
+  border-color:var(--accent-bright);
+  background:rgba(134,87,255,0.08);
+}
+@media(pointer:coarse){
+  .cursor-dot,.cursor-ring{display:none;}
+}
+
+/* ============ SCROLL PROGRESS ============ */
+.progress-top{
+  position:fixed;top:0;left:0;height:3px;width:0%;
+  background:linear-gradient(90deg, var(--accent-dim), var(--accent-bright));
+  z-index:9998;
+  transition:width 0.05s linear;
+}
+.progress-top::after{
+  content:'';position:absolute;right:-4px;top:-3px;width:9px;height:9px;border-radius:50%;
+  background:var(--accent-bright);
+  box-shadow:0 0 12px 3px var(--accent-glow);
+}
+.progress-side{
+  position:fixed;top:0;right:0;width:3px;height:0%;
+  background:linear-gradient(180deg, var(--accent-dim), var(--accent-bright));
+  z-index:9998;
+  transition:height 0.05s linear;
+}
+.progress-side::after{
+  content:'';position:absolute;bottom:-4px;left:-3px;width:9px;height:9px;border-radius:50%;
+  background:var(--accent-bright);
+  box-shadow:0 0 12px 3px var(--accent-glow);
+}
+@media(max-width:768px){.progress-side{display:none;}}
+
+/* ============ NAV ============ */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:500;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1.4rem 6vw;
+  backdrop-filter:blur(14px);
+  background:rgba(8,8,12,0.55);
+  border-bottom:1px solid var(--line);
+}
+.logo{
+  font-family:var(--font-display);
+  font-weight:800;font-size:1.1rem;
+  letter-spacing:0.02em;
+  display:flex;align-items:center;gap:0.5rem;
+  user-select:none;
+}
+.logo .dot{color:var(--accent-bright);}
+.nav-links{display:flex;gap:2.2rem;align-items:center;}
+.nav-links a{
+  font-family:var(--font-mono);
+  font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;
+  color:var(--text-muted);
+  position:relative;padding-bottom:4px;
+  transition:color 0.3s;
+}
+.nav-links a::after{
+  content:'';position:absolute;left:0;bottom:0;height:1px;width:0;
+  background:var(--accent-bright);transition:width 0.3s var(--ease);
+}
+.nav-links a:hover,.nav-links a.active{color:var(--text);}
+.nav-links a.active::after,.nav-links a:hover::after{width:100%;}
+@media(max-width:768px){.nav-links{display:none;}}
+.theme-toast{
+  position:fixed;top:70px;left:50%;transform:translateX(-50%) translateY(-10px);
+  background:var(--elevated);border:1px solid var(--line-strong);
+  padding:0.55rem 1.1rem;border-radius:100px;
+  font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--accent-bright);
+  opacity:0;pointer-events:none;transition:all 0.35s var(--ease);
+  z-index:600;
+}
+.theme-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* ============ HERO ============ */
+.hero{
+  min-height:100vh;
+  display:flex;align-items:center;
+  padding-top:6rem;
+  overflow:hidden;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1.3fr 0.9fr;gap:3rem;
+  max-width:1280px;margin:0 auto;width:100%;
+  align-items:center;
+  position:relative;z-index:3;
+}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;}}
+
+.avatar{
+  width:58px;height:58px;border-radius:50%;
+  border:1px solid var(--line-strong);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);font-weight:700;font-size:1rem;
+  color:var(--accent-bright);
+  background:linear-gradient(155deg, var(--elevated), var(--charcoal));
+  margin-bottom:2rem;
+}
+.hero-name{
+  font-family:var(--font-display);
+  font-weight:900;
+  font-size:clamp(3rem, 8.6vw, 6.6rem);
+  line-height:0.96;
+  letter-spacing:-0.02em;
+  margin-bottom:1.2rem;
+}
+.hero-name .accent-word{
+  background:linear-gradient(120deg, var(--accent-bright), var(--accent));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-title{
+  font-family:var(--font-mono);
+  font-size:clamp(0.85rem, 1.4vw, 1.05rem);
+  color:var(--accent-bright);
+  letter-spacing:0.03em;
+  margin-bottom:1.6rem;
+  max-width:44ch;
+}
+.hero-tag{
+  color:var(--text-muted);
+  font-size:1.08rem;
+  max-width:52ch;
+  margin-bottom:2.6rem;
+}
+.hero-tag .scramble{
+  font-family:var(--font-mono);
+  color:var(--accent-bright);
+  font-weight:700;
+}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn{
+  position:relative;
+  display:inline-flex;align-items:center;gap:0.6rem;
+  padding:0.95rem 1.7rem;
+  border-radius:8px;
+  font-family:var(--font-body);font-weight:600;font-size:0.92rem;
+  transition:transform 0.25s var(--ease), box-shadow 0.25s var(--ease), background 0.25s;
+}
+.btn-primary{
+  background:var(--accent);color:#fff;
+  box-shadow:0 0 0 0 var(--accent-glow);
+}
+.btn-primary:hover{box-shadow:0 8px 30px -6px var(--accent-glow); background:var(--accent-bright);}
+.btn-ghost{
+  border:1px solid var(--line-strong);color:var(--text);
+}
+.btn-ghost:hover{border-color:var(--accent-bright);color:var(--accent-bright);}
+
+/* hero credibility strip */
+.hero-creds{
+  margin-top:2.4rem;
+  display:flex;flex-wrap:wrap;gap:1.4rem 2rem;
+  font-family:var(--font-mono);font-size:0.78rem;color:var(--text-faint);
+  letter-spacing:0.04em;text-transform:uppercase;
+  max-width:52ch;
+}
+.hero-creds span{display:flex;align-items:center;gap:0.55rem;}
+.hero-creds i{color:var(--accent-bright);font-size:0.55rem;}
+
+/* radar visual */
+.radar-wrap{
+  position:relative;
+  aspect-ratio:1/1;
+  max-width:460px;
+  justify-self:end;
+  opacity:0.9;
+}
+@media(max-width:900px){.radar-wrap{max-width:280px;margin:0 auto;opacity:0.55;}}
+.radar-ring{
+  position:absolute;border-radius:50%;
+  border:1px solid var(--line-strong);
+  top:50%;left:50%;transform:translate(-50%,-50%);
+}
+.r1{width:100%;height:100%;}
+.r2{width:74%;height:74%;}
+.r3{width:48%;height:48%;}
+.r4{width:22%;height:22%;border-color:var(--accent-dim);}
+.radar-cross{
+  position:absolute;top:0;left:50%;width:1px;height:100%;background:var(--line);
+}
+.radar-cross.h{top:50%;left:0;width:100%;height:1px;}
+.radar-sweep{
+  position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from 0deg, var(--accent-glow), transparent 22%, transparent 100%);
+  animation:spin 4.5s linear infinite;
+  mix-blend-mode:screen;
+}
+@keyframes spin{to{transform:rotate(360deg);}}
+.blip{
+  position:absolute;width:6px;height:6px;border-radius:50%;
+  background:var(--accent-bright);
+  box-shadow:0 0 10px 2px var(--accent-glow);
+  animation:blip-pulse 2.6s ease-in-out infinite;
+}
+@keyframes blip-pulse{0%,100%{opacity:0.25;transform:scale(0.8);}50%{opacity:1;transform:scale(1.15);}}
+
+/* ============ REVEAL / STAGGER ============ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.8s var(--ease), transform 0.8s var(--ease);}
+.reveal.in{opacity:1;transform:translateY(0);}
+.stagger > *{opacity:0;transform:translateY(20px);transition:opacity 0.7s var(--ease), transform 0.7s var(--ease);}
+.stagger.in > *{opacity:1;transform:translateY(0);}
+.stagger.in > *:nth-child(1){transition-delay:0.05s;}
+.stagger.in > *:nth-child(2){transition-delay:0.15s;}
+.stagger.in > *:nth-child(3){transition-delay:0.25s;}
+.stagger.in > *:nth-child(4){transition-delay:0.35s;}
+.stagger.in > *:nth-child(5){transition-delay:0.45s;}
+
+/* ============ MARQUEE ============ */
+.marquee-strip{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:1.4rem 0;overflow:hidden;background:var(--charcoal);
+}
+.marquee-track{
+  display:flex;gap:2.6rem;width:max-content;
+  animation:marquee 32s linear infinite;
+}
+.marquee-strip:hover .marquee-track{animation-play-state:paused;}
+.marquee-track span{
+  font-family:var(--font-mono);font-size:0.95rem;color:var(--text-faint);
+  display:flex;align-items:center;gap:2.6rem;white-space:nowrap;
+}
+.marquee-track span i{color:var(--accent-bright);font-size:0.5rem;}
+@keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ============ BENTO GRID ============ */
+.bento{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-auto-rows:minmax(140px,auto);
+  gap:1rem;
+}
+@media(max-width:768px){.bento{grid-template-columns:repeat(2,1fr);}}
+.cell{
+  position:relative;
+  background:linear-gradient(155deg, var(--elevated), var(--charcoal));
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:1.7rem;
+  overflow:hidden;
+  transition:border-color 0.3s, transform 0.15s ease-out;
+}
+.cell::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(220px circle at var(--mx,50%) var(--my,50%), var(--accent-glow), transparent 70%);
+  opacity:0;transition:opacity 0.35s;
+  pointer-events:none;
+}
+.cell:hover::before{opacity:0.5;}
+.cell:hover{border-color:var(--line-strong);}
+
+.bio-cell{grid-column:span 2;grid-row:span 2;}
+.stat-cell{grid-column:span 1;display:flex;flex-direction:column;justify-content:flex-end;}
+@media(max-width:768px){.bio-cell{grid-column:span 2;}.stat-cell{grid-column:span 1;}}
+
+.bio-cell p{color:var(--text-muted);font-size:1.02rem;margin-top:0.6rem;}
+.bio-cell p + p{margin-top:0.9rem;}
+.bio-cell h3, .stat-cell h3{
+  font-family:var(--font-display);font-size:0.95rem;color:var(--text-faint);
+  text-transform:uppercase;letter-spacing:0.08em;font-weight:400;
+}
+.pillar-tag{
+  display:inline-block;
+  font-family:var(--font-mono);font-size:0.68rem;
+  color:var(--accent-bright);letter-spacing:0.14em;text-transform:uppercase;
+  border:1px solid var(--line-strong);border-radius:100px;
+  padding:0.24rem 0.7rem;margin-bottom:0.5rem;
+}
+.stat-num{
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(2rem,3.4vw,2.6rem);
+  color:var(--text);
+  margin-top:0.8rem;
+}
+.stat-num span.suffix{color:var(--accent-bright);}
+.stat-label{font-size:0.86rem;color:var(--text-muted);margin-top:0.3rem;}
+
+.skill-cell{grid-column:span 2;}
+@media(max-width:768px){.skill-cell{grid-column:span 2;}}
+.skill-cell h3{
+  font-family:var(--font-display);font-size:1.02rem;font-weight:600;margin-bottom:1.1rem;
+}
+.tag-row{display:flex;flex-wrap:wrap;gap:0.55rem;}
+.tag{
+  font-family:var(--font-mono);font-size:0.78rem;
+  padding:0.42rem 0.85rem;
+  border:1px solid var(--line-strong);border-radius:100px;
+  color:var(--text-muted);
+  transition:color 0.25s, border-color 0.25s;
+}
+.tag:hover{color:var(--accent-bright);border-color:var(--accent-bright);}
+
+/* ============ SIGNATURE DEAL ============ */
+#signature-deal{position:relative;}
+#signature-deal::before{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 40% 60% at 10% 20%, rgba(134,87,255,0.10), transparent 60%),
+    radial-gradient(ellipse 30% 50% at 95% 80%, rgba(76,47,160,0.14), transparent 60%);
+}
+.sig-shell{
+  position:relative;
+  border:1px solid var(--line-strong);border-radius:20px;
+  background:linear-gradient(155deg, var(--elevated), var(--charcoal));
+  padding:2.6rem 2.4rem;
+  overflow:hidden;
+}
+.sig-shell::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg, transparent, var(--accent-bright), transparent);
+  opacity:0.5;
+}
+.sig-header{
+  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;
+  gap:1.4rem;margin-bottom:2rem;padding-bottom:1.8rem;
+  border-bottom:1px dashed var(--line);
+}
+.sig-title{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(1.5rem,2.6vw,2.1rem);letter-spacing:-0.01em;
+  max-width:22ch;line-height:1.1;
+}
+.sig-title .accent-word{
+  background:linear-gradient(120deg, var(--accent-bright), var(--accent));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.sig-meta{
+  display:flex;flex-direction:column;align-items:flex-end;gap:0.4rem;
+  font-family:var(--font-mono);font-size:0.75rem;color:var(--text-faint);
+  text-transform:uppercase;letter-spacing:0.08em;
+}
+.sig-meta .value{font-size:1.4rem;color:var(--accent-bright);font-weight:700;letter-spacing:0;text-transform:none;}
+.sig-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;
+}
+@media(max-width:900px){.sig-grid{grid-template-columns:1fr;}}
+.sig-block{
+  border:1px solid var(--line);border-radius:12px;
+  padding:1.5rem 1.4rem;background:rgba(8,8,12,0.35);
+  position:relative;
+  transition:border-color 0.3s, transform 0.3s var(--ease);
+}
+.sig-block:hover{border-color:var(--accent-dim);transform:translateY(-3px);}
+.sig-block-num{
+  font-family:var(--font-mono);font-size:0.72rem;color:var(--accent-bright);
+  letter-spacing:0.12em;margin-bottom:0.6rem;
+}
+.sig-block h4{
+  font-family:var(--font-display);font-weight:700;font-size:1.15rem;
+  margin-bottom:0.75rem;letter-spacing:-0.01em;
+}
+.sig-block p{color:var(--text-muted);font-size:0.96rem;line-height:1.65;}
+.sig-stats{
+  margin-top:1.6rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;
+  border-top:1px dashed var(--line);padding-top:1.6rem;
+}
+@media(max-width:768px){.sig-stats{grid-template-columns:repeat(2,1fr);}}
+.sig-stat{
+  display:flex;flex-direction:column;gap:0.2rem;
+}
+.sig-stat .n{
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(1.5rem,2.4vw,2rem);color:var(--text);
+}
+.sig-stat .n .suffix{color:var(--accent-bright);font-weight:700;}
+.sig-stat .l{
+  font-family:var(--font-mono);font-size:0.7rem;color:var(--text-faint);
+  text-transform:uppercase;letter-spacing:0.1em;
+}
+
+/* ============ TIMELINE ============ */
+.timeline{position:relative;padding-left:2.2rem;}
+.timeline::before{
+  content:'';position:absolute;left:0;top:6px;bottom:6px;width:1px;
+  background:linear-gradient(180deg, var(--accent), transparent 96%);
+}
+.tl-item{position:relative;padding-bottom:3.2rem;}
+.tl-item:last-child{padding-bottom:0;}
+.tl-item::before{
+  content:'';position:absolute;left:-2.2rem;top:5px;width:9px;height:9px;border-radius:50%;
+  background:var(--accent-bright);
+  box-shadow:0 0 0 4px rgba(134,87,255,0.15);
+  transform:translateX(-4.5px);
+}
+.tl-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0.5rem;align-items:baseline;margin-bottom:0.4rem;}
+.tl-role{font-family:var(--font-display);font-weight:700;font-size:1.25rem;}
+.tl-dates{font-family:var(--font-mono);font-size:0.8rem;color:var(--text-faint);white-space:nowrap;}
+.tl-company{color:var(--accent-bright);font-size:0.95rem;margin-bottom:1rem;font-weight:500;}
+.tl-item ul{display:flex;flex-direction:column;gap:0.55rem;max-width:64ch;}
+.tl-item li{position:relative;padding-left:1.2rem;color:var(--text-muted);font-size:0.98rem;}
+.tl-item li::before{content:'—';position:absolute;left:0;color:var(--accent-dim);}
+.tl-item li b{color:var(--text);font-weight:600;}
+
+/* ============ EDUCATION ============ */
+.edu-list{display:flex;flex-direction:column;gap:1.2rem;max-width:640px;}
+.edu-item{
+  border:1px solid var(--line);border-radius:12px;padding:1.4rem 1.6rem;
+  background:linear-gradient(155deg, var(--elevated), var(--charcoal));
+}
+.edu-item h4{font-family:var(--font-display);font-size:1.05rem;font-weight:600;}
+.edu-item p{color:var(--text-muted);font-size:0.92rem;margin-top:0.3rem;}
+.edu-item span.dates{font-family:var(--font-mono);font-size:0.78rem;color:var(--text-faint);}
+
+/* ============ CLOSER ============ */
+.closer{
+  text-align:center;
+  padding:9rem 6vw;
+  position:relative;
+}
+.closer::before{
+  content:'';position:absolute;top:50%;left:50%;width:600px;height:600px;
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle, var(--accent-glow), transparent 68%);
+  filter:blur(10px);opacity:0.5;pointer-events:none;
+}
+.closer h2{
+  font-family:var(--font-display);font-weight:800;
+  font-size:clamp(2.2rem,6vw,4.2rem);
+  max-width:20ch;margin:0 auto 1.6rem;
+  position:relative;z-index:2;
+}
+.closer p{color:var(--text-muted);max-width:54ch;margin:0 auto 2.4rem;position:relative;z-index:2;}
+.contact-links{
+  display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;position:relative;z-index:2;margin-top:2.2rem;
+}
+.contact-links a{
+  display:flex;align-items:center;gap:0.6rem;
+  font-family:var(--font-mono);font-size:0.85rem;color:var(--text-muted);
+  border:1px solid var(--line-strong);padding:0.75rem 1.3rem;border-radius:100px;
+  transition:all 0.3s;
+}
+.contact-links a:hover{color:var(--accent-bright);border-color:var(--accent-bright);transform:translateY(-2px);}
+
+footer{
+  text-align:center;padding:2.4rem 6vw 3rem;
+  font-family:var(--font-mono);font-size:0.75rem;color:var(--text-faint);
+  border-top:1px solid var(--line);
+}
+footer .hint{margin-top:0.5rem;opacity:0.6;}
+
+@media(prefers-reduced-motion: reduce){
+  *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
+}
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-dot" id="cursorDot" style="left: 1031px; top: 5px;"></div>
+<div class="cursor-ring" id="cursorRing" style="left: 930.626px; top: 67.7364px;"></div>
+<div class="progress-top" id="progressTop" style="width: 0%;"></div>
+<div class="progress-side" id="progressSide" style="height: 0%;"></div>
+<div class="theme-toast" id="themeToast">Theme: Violet</div>
+
+<nav>
+  <div class="logo" id="logoClick"><span class="dot">◈</span> YM<span style="color:var(--text-faint);font-weight:400;">.sales</span></div>
+  <div class="nav-links" id="navLinks">
+    <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#about" data-nav="">About</a>
+    <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#skills" data-nav="">Skills</a>
+    <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#signature-deal" data-nav="">Signature Deal</a>
+    <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#experience" data-nav="">Experience</a>
+    <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#contact" data-nav="">Contact</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div>
+      <div class="avatar reveal in">YM</div>
+      <h1 class="hero-name reveal in">Yeshwanth<br><span class="accent-word">M.</span></h1>
+      <p class="hero-title reveal in">Enterprise Sales Leader · SIEM/SOC &amp; Critical Infrastructure · Regulated Industries &amp; Central Government</p>
+      <p class="hero-tag reveal in">I close high-ticket security infrastructure deals for buyers who don't tolerate vendor fluff — <span class="scramble" data-text="CISOs, procurement heads, and central government">CISOs, procurement heads, and central government</span>. Fifteen years of pipeline execution rooted in the systems themselves: wireless surveillance, SCADA, network security, SIEM/SOC.</p>
+      <div class="hero-ctas reveal in">
+        <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#signature-deal" class="btn btn-primary magnetic">Review Case Studies <i class="fa-solid fa-arrow-down"></i></a>
+        <a href="https://secure-scale-3.preview.emergentagent.com/yeshwanth-m-portfolio.html#contact" class="btn btn-ghost magnetic">Let's Talk Strategy <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="hero-creds reveal in">
+        <span><i class="fa-solid fa-circle"></i>₹6Cr+ Central-Govt Deal</span>
+        <span><i class="fa-solid fa-circle"></i>15+ Yrs Enterprise Pipeline</span>
+        <span><i class="fa-solid fa-circle"></i>4 States · Coastal Security</span>
+        <span><i class="fa-solid fa-circle"></i>30% YoY Revenue Growth</span>
+      </div>
+    </div>
+    <div class="radar-wrap" id="radarWrap" style="transform: translate(2.39714px, -6.90411px);">
+      <div class="radar-ring r1"></div>
+      <div class="radar-ring r2"></div>
+      <div class="radar-ring r3"></div>
+      <div class="radar-ring r4"></div>
+      <div class="radar-cross"></div>
+      <div class="radar-cross h"></div>
+      <div class="radar-sweep"></div>
+      <div class="blip" style="top:22%;left:64%;animation-delay:0.2s;"></div>
+      <div class="blip" style="top:68%;left:30%;animation-delay:1.1s;"></div>
+      <div class="blip" style="top:44%;left:78%;animation-delay:1.8s;"></div>
+      <div class="blip" style="top:78%;left:60%;animation-delay:0.6s;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="eyebrow reveal">The Operator</div>
+    <h2 class="section-title reveal">A closer who reads the network diagram before the pitch deck.</h2>
+    <div class="bento stagger">
+      <div class="cell bio-cell tilt">
+        <h3>Positioning</h3>
+        <p>Fifteen years in enterprise sales, moving deliberately from institutional and channel selling → wireless surveillance → network security → SIEM/SOC for regulated buyers. Every step took me deeper into the infrastructure I now sell into.</p>
+        <p>Today I lead full-cycle security deals for banks, healthcare, and central government — forecasting, pipeline, technical qualification, tender/RFP, negotiation, close. My differentiator with technical buyers: I understand the SOC console, the SCADA layer, and the wireless backbone before the demo starts.</p>
+      </div>
+      <div class="cell stat-cell tilt">
+        <span class="pillar-tag">The Close</span>
+        <h3>Signature Win</h3>
+        <div class="stat-num">₹<span class="value" data-count="6">0</span><span class="suffix">Cr+</span></div>
+        <div class="stat-label">Central-government maritime surveillance program — won, delivered, expanded.</div>
+      </div>
+      <div class="cell stat-cell tilt">
+        <span class="pillar-tag">The Scale</span>
+        <h3>Revenue Growth</h3>
+        <div class="stat-num">+<span class="value" data-count="30">0</span><span class="suffix">%</span></div>
+        <div class="stat-label">YoY revenue &amp; partner effectiveness lifts driven across enterprise accounts.</div>
+      </div>
+      <div class="cell stat-cell tilt">
+        <span class="pillar-tag">The Tech</span>
+        <h3>Infrastructure Fluency</h3>
+        <div class="stat-num"><span class="value" data-count="15">0</span><span class="suffix">+ yrs</span></div>
+        <div class="stat-label">SIEM · SOC · SCADA · Wireless Surveillance · Enterprise Networks.</div>
+      </div>
+      <div class="cell stat-cell tilt">
+        <span class="pillar-tag">The Reach</span>
+        <h3>Ecosystem Built</h3>
+        <div class="stat-num"><span class="value" data-count="1000">0</span><span class="suffix">+</span></div>
+        <div class="stat-label">Security practitioners trained via the Cybersecurity Centre of Excellence.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>
+      <i class="fa-solid fa-circle"></i>SIEM &amp; SOC for Regulated Industries
+      <i class="fa-solid fa-circle"></i>Central-Government Tenders
+      <i class="fa-solid fa-circle"></i>Coastal &amp; Maritime Surveillance
+      <i class="fa-solid fa-circle"></i>SCADA &amp; IoT Security
+      <i class="fa-solid fa-circle"></i>Enterprise Network Security
+      <i class="fa-solid fa-circle"></i>Channel &amp; Partner Enablement
+      <i class="fa-solid fa-circle"></i>Full-Cycle Deal Ownership
+      <i class="fa-solid fa-circle"></i>RFP · BAFO · Contract Negotiation
+    </span>
+    <span>
+      <i class="fa-solid fa-circle"></i>SIEM &amp; SOC for Regulated Industries
+      <i class="fa-solid fa-circle"></i>Central-Government Tenders
+      <i class="fa-solid fa-circle"></i>Coastal &amp; Maritime Surveillance
+      <i class="fa-solid fa-circle"></i>SCADA &amp; IoT Security
+      <i class="fa-solid fa-circle"></i>Enterprise Network Security
+      <i class="fa-solid fa-circle"></i>Channel &amp; Partner Enablement
+      <i class="fa-solid fa-circle"></i>Full-Cycle Deal Ownership
+      <i class="fa-solid fa-circle"></i>RFP · BAFO · Contract Negotiation
+    </span>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="eyebrow reveal">Capability Stack</div>
+    <h2 class="section-title reveal">Technical fluency, deployed across the entire deal cycle.</h2>
+    <div class="bento stagger">
+      <div class="cell skill-cell tilt">
+        <h3>Security &amp; Infrastructure Depth</h3>
+        <div class="tag-row">
+          <span class="tag">SIEM &amp; SOC Solutions</span>
+          <span class="tag">Enterprise Network Security</span>
+          <span class="tag">Firewalls &amp; Perimeter</span>
+          <span class="tag">Wireless Surveillance</span>
+          <span class="tag">SCADA &amp; IoT Security</span>
+          <span class="tag">Data Centre Infrastructure</span>
+        </div>
+      </div>
+      <div class="cell skill-cell tilt">
+        <h3>Deal Execution</h3>
+        <div class="tag-row">
+          <span class="tag">Enterprise &amp; Government Sales</span>
+          <span class="tag">Tender / RFP / BAFO</span>
+          <span class="tag">Contract &amp; Price Negotiation</span>
+          <span class="tag">Compliance-Led Bidding</span>
+          <span class="tag">Forecasting &amp; Pipeline Ownership</span>
+          <span class="tag">GTM Strategy</span>
+        </div>
+      </div>
+      <div class="cell skill-cell tilt">
+        <h3>Accounts &amp; Ecosystem</h3>
+        <div class="tag-row">
+          <span class="tag">Key Account Management</span>
+          <span class="tag">CISO / CxO Engagement</span>
+          <span class="tag">Channel &amp; Partner Enablement</span>
+          <span class="tag">Regional Market Expansion</span>
+          <span class="tag">Strategic Alliances</span>
+          <span class="tag">Renewals &amp; Upsell</span>
+        </div>
+      </div>
+      <div class="cell skill-cell tilt">
+        <h3>Tools &amp; Languages</h3>
+        <div class="tag-row">
+          <span class="tag">Salesforce CRM</span>
+          <span class="tag">Zoho CRM</span>
+          <span class="tag">MS Office / Google Workspace</span>
+          <span class="tag">English</span>
+          <span class="tag">Kannada</span>
+          <span class="tag">Hindi</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNATURE DEAL -->
+<section id="signature-deal">
+  <div class="section-inner">
+    <div class="eyebrow reveal">Signature Deal Breakdown</div>
+    <h2 class="section-title reveal">The ₹6Cr+ maritime coastal surveillance program.</h2>
+
+    <div class="sig-shell reveal">
+      <div class="sig-header">
+        <div>
+          <div class="sig-title">A central-government <span class="accent-word">wireless surveillance</span> deployment spanning three coastal states.</div>
+        </div>
+        <div class="sig-meta">
+          <span>Contract Value</span>
+          <span class="value">₹6 Cr+</span>
+          <span>Sector · Central Govt · Maritime Security</span>
+        </div>
+      </div>
+
+      <div class="sig-grid stagger">
+
+        <div class="sig-block">
+          <div class="sig-block-num">01 · Challenge</div>
+          <h4>Securing a fragmented coastal border.</h4>
+          <p>A central-government client responsible for maritime security needed continuous, resilient surveillance across a fragmented coastal stretch — commercial-grade CCTV wouldn't survive the environment, and existing vendors couldn't meet the compliance, uptime, and documentation bar for a multi-crore government tender.</p>
+        </div>
+
+        <div class="sig-block">
+          <div class="sig-block-num">02 · Strategy</div>
+          <h4>Custom wireless surveillance, engineered for compliance.</h4>
+          <p>I built the opportunity from cold territory — mapped stakeholders, positioned a hardened wireless surveillance architecture tailored to the government's procurement standards, and drove the tender/RFP end-to-end with technical, compliance, and pricing teams. Won on capability plus a documentation trail that survived scrutiny.</p>
+        </div>
+
+        <div class="sig-block">
+          <div class="sig-block-num">03 · Impact</div>
+          <h4>A multi-crore win, replicated across the coast.</h4>
+          <p>Delivered a ₹6Cr+ contract on time and under strict regulatory compliance — then used the same playbook to open Chennai, Andhra Pradesh, Goa, and coastal Karnataka as new territories for the company. The engagement anchored the firm's presence in coastal &amp; maritime security for years to follow.</p>
+        </div>
+
+      </div>
+
+      <div class="sig-stats">
+        <div class="sig-stat">
+          <div class="n">₹6<span class="suffix">Cr+</span></div>
+          <div class="l">Contract Value</div>
+        </div>
+        <div class="sig-stat">
+          <div class="n">3<span class="suffix"> States</span></div>
+          <div class="l">Coastal Deployment</div>
+        </div>
+        <div class="sig-stat">
+          <div class="n">1<span class="suffix"> Central Govt</span></div>
+          <div class="l">Maritime Security Client</div>
+        </div>
+        <div class="sig-stat">
+          <div class="n">4<span class="suffix"> New Regions</span></div>
+          <div class="l">Opened Post-Delivery</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="eyebrow reveal">Track Record</div>
+    <h2 class="section-title reveal">Fifteen years, one trajectory: higher stakes, harder buyers.</h2>
+    <div class="timeline stagger">
+
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Business Development Manager</span>
+          <span class="tl-dates">Jan 2023 — Present</span>
+        </div>
+        <div class="tl-company">Cyberverse Foundation · Mysuru</div>
+        <ul>
+          <li>Own the full BD motion for cybersecurity EdTech into academic institutions — <b>direct P&amp;L accountability</b> on partnership revenue and program renewals.</li>
+          <li>Stood up a <b>Cybersecurity Centre of Excellence (CCoE)</b> that has trained <b>1,000+ security practitioners</b>, creating a repeatable partnership model now anchoring the firm's institutional pipeline.</li>
+          <li>Built the company's <b>thought-leadership footprint</b> in IoT security, SCADA, and SOC monitoring via webinars and workshops — programs that convert directly into qualified enterprise leads.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Key Account Manager</span>
+          <span class="tl-dates">Oct 2021 — Dec 2022</span>
+        </div>
+        <div class="tl-company">Binary Systems Pvt Ltd · Mysuru</div>
+        <ul>
+          <li>Contributed to <b>~30% company-wide revenue growth</b> by closing firewalls, network security, and licensing into large enterprise accounts — several of which became long-term repeat customers.</li>
+          <li>Led <b>tender &amp; RFP responses</b> alongside technical and compliance teams, structuring bids that were both competitive on price and defensible on compliance.</li>
+          <li>Redesigned the <b>onboarding-to-support handoff</b> to eliminate friction that had previously cost renewals — a change that lifted retention and unlocked upsell revenue across the account base.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Sr. Business Development Executive</span>
+          <span class="tl-dates">Jul 2014 — Apr 2021</span>
+        </div>
+        <div class="tl-company">Raman iT Solutions Pvt Ltd · Mysuru</div>
+        <ul>
+          <li><b>Closed a ₹6Cr+ central-government coastal surveillance contract</b> — one of the region's largest maritime security deployments — from opportunity identification through delivery, under strict tender compliance.</li>
+          <li>Opened <b>coastal Karnataka, Goa, and Vishakhapatnam</b> as brand-new territories, then <b>replicated the model into Chennai and Andhra Pradesh</b> — building the firm's presence in coastal &amp; maritime security from zero.</li>
+          <li>Won <b>multiple competitive government tenders/RFPs</b> back-to-back — consistently clearing compliance, documentation, and pricing scrutiny under tight submission windows.</li>
+          <li>Grew key public-sector and enterprise accounts across the coast, directly anchoring the company's revenue growth for nearly seven consecutive years.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Territory Sales Incharge</span>
+          <span class="tl-dates">Mar 2013 — Jun 2014</span>
+        </div>
+        <div class="tl-company">APW President Systems · Mysuru</div>
+        <ul>
+          <li>Drove <b>+30% YoY channel sales growth</b> in the data-centre infrastructure segment through targeted partner engagement and co-marketing execution.</li>
+          <li>Lifted <b>partner sales effectiveness by ~20%</b> via a structured onboarding, enablement, and product-training program — measurable within two quarters of rollout.</li>
+          <li>Negotiated and closed <b>long-term strategic partnerships</b>, and collaborated across sales / product / marketing to sharpen pricing, positioning, and GTM execution.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-head">
+          <span class="tl-role">Sales Executive</span>
+          <span class="tl-dates">Feb 2011 — Mar 2013</span>
+        </div>
+        <div class="tl-company">Navneet Publications (India) Ltd. · Mysuru, Karnataka</div>
+        <ul>
+          <li>Owned the <b>educational business vertical</b> across Mysore, Hassan, and Kodagu — grew brand penetration in South Karnataka via institutional selling.</li>
+          <li>Secured <b>bulk orders</b> through direct engagement with school administrators and institutional procurement decision-makers.</li>
+          <li>Built the account-management and consultative-selling foundation that I later scaled into cybersecurity solution sales.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-inner">
+    <div class="eyebrow reveal">Foundation</div>
+    <h2 class="section-title reveal">Where it started.</h2>
+    <div class="edu-list stagger">
+      <div class="edu-item">
+        <h4>Bachelor of Commerce (B.Com.) — Finance, General</h4>
+        <p>KSOU Mysore <span class="dates">· 2011 — 2014</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSER -->
+<section class="closer" id="contact">
+  <div class="eyebrow reveal" style="justify-content:center;">Let's Talk Strategy</div>
+  <h2 class="reveal">Building a security pipeline that actually converts — banks, hospitals, government.</h2>
+  <p class="reveal">If you're a cybersecurity founder, VP of Sales, or CISO scoping a closer who can carry the technical conversation and hold the deal room, I'm open to remote leadership roles and consultative engagements. The best way to start is a straight conversation about your pipeline.</p>
+  <div class="contact-links reveal">
+    <a href="mailto:yeshwanthm92@gmail.com" class="magnetic"><i class="fa-solid fa-envelope"></i> yeshwanthm92@gmail.com</a>
+    <a href="tel:+919535055483" class="magnetic"><i class="fa-solid fa-phone"></i> +91 9535055483</a>
+    <a href="https://www.linkedin.com/in/yeshwanthm91" target="_blank" rel="noopener" class="magnetic"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yeshwanthm91</a>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div>Mysore, Karnataka, India · Open to remote &amp; PAN-India engagements</div>
+  <div class="hint">psst — the logo up top isn't just decoration.</div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+
+var isTouch = window.matchMedia('(pointer: coarse)').matches;
+if(isTouch){ document.body.classList.add('touch-device'); }
+var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Custom cursor ---------- */
+if(!isTouch){
+  var dot = document.getElementById('cursorDot');
+  var ring = document.getElementById('cursorRing');
+  var mx=0,my=0, rx=0, ry=0;
+  window.addEventListener('mousemove', function(e){
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx+'px'; dot.style.top = my+'px';
+  });
+  function loop(){
+    rx += (mx-rx)*0.16; ry += (my-ry)*0.16;
+    ring.style.left = rx+'px'; ring.style.top = ry+'px';
+    requestAnimationFrame(loop);
+  }
+  loop();
+  var hoverables = document.querySelectorAll('a, button, .cell, .tag, .sig-block');
+  hoverables.forEach(function(el){
+    el.addEventListener('mouseenter', function(){ ring.classList.add('hover'); });
+    el.addEventListener('mouseleave', function(){ ring.classList.remove('hover'); });
+  });
+} else {
+  document.getElementById('cursorDot').style.display='none';
+  document.getElementById('cursorRing').style.display='none';
+}
+
+/* ---------- Scroll progress ---------- */
+var progressTop = document.getElementById('progressTop');
+var progressSide = document.getElementById('progressSide');
+function updateProgress(){
+  var h = document.documentElement;
+  var scrollPct = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+  if(isNaN(scrollPct)) scrollPct = 0;
+  progressTop.style.width = scrollPct+'%';
+  progressSide.style.height = scrollPct+'%';
+}
+window.addEventListener('scroll', updateProgress);
+updateProgress();
+
+/* ---------- Nav active highlight ---------- */
+var navLinks = document.querySelectorAll('[data-nav]');
+var sections = ['about','skills','signature-deal','experience','contact'].map(function(id){ return document.getElementById(id); });
+function updateActiveNav(){
+  var pos = window.scrollY + window.innerHeight/3;
+  var current = null;
+  sections.forEach(function(sec){
+    if(sec && sec.offsetTop <= pos) current = sec.id;
+  });
+  navLinks.forEach(function(link){
+    link.classList.toggle('active', link.getAttribute('href') === '#'+current);
+  });
+}
+window.addEventListener('scroll', updateActiveNav);
+updateActiveNav();
+
+/* ---------- Reveal on scroll ---------- */
+var revealEls = document.querySelectorAll('.reveal, .stagger');
+var io = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){
+      entry.target.classList.add('in');
+      io.unobserve(entry.target);
+    }
+  });
+}, {threshold:0.15});
+revealEls.forEach(function(el){ io.observe(el); });
+
+/* ---------- Count up ---------- */
+var counters = document.querySelectorAll('.stat-num .value');
+var counterIO = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){
+      var el = entry.target;
+      var target = parseInt(el.getAttribute('data-count'),10);
+      var dur = 1400;
+      var start = null;
+      function step(ts){
+        if(!start) start = ts;
+        var progress = Math.min((ts-start)/dur, 1);
+        var eased = 1 - Math.pow(1-progress, 3);
+        el.textContent = Math.floor(eased*target);
+        if(progress < 1) requestAnimationFrame(step);
+        else el.textContent = target;
+      }
+      requestAnimationFrame(step);
+      counterIO.unobserve(el);
+    }
+  });
+}, {threshold:0.4});
+counters.forEach(function(el){ counterIO.observe(el); });
+
+/* ---------- Tilt on bento cells (desktop only) ---------- */
+if(!isTouch){
+  document.querySelectorAll('.tilt').forEach(function(cell){
+    cell.addEventListener('mousemove', function(e){
+      var r = cell.getBoundingClientRect();
+      var px = (e.clientX - r.left)/r.width;
+      var py = (e.clientY - r.top)/r.height;
+      var rotX = (py-0.5) * -8;
+      var rotY = (px-0.5) * 8;
+      cell.style.transform = 'perspective(700px) rotateX('+rotX+'deg) rotateY('+rotY+'deg) translateZ(0)';
+      cell.style.setProperty('--mx', (px*100)+'%');
+      cell.style.setProperty('--my', (py*100)+'%');
+    });
+    cell.addEventListener('mouseleave', function(){
+      cell.style.transform = 'perspective(700px) rotateX(0) rotateY(0)';
+    });
+  });
+}
+
+/* ---------- Magnetic buttons (desktop only) ---------- */
+if(!isTouch){
+  document.querySelectorAll('.magnetic').forEach(function(btn){
+    btn.addEventListener('mousemove', function(e){
+      var r = btn.getBoundingClientRect();
+      var px = e.clientX - (r.left + r.width/2);
+      var py = e.clientY - (r.top + r.height/2);
+      btn.style.transform = 'translate('+(px*0.28)+'px,'+(py*0.35)+'px)';
+    });
+    btn.addEventListener('mouseleave', function(){
+      btn.style.transform = 'translate(0,0)';
+    });
+  });
+}
+
+/* ---------- Radar parallax (desktop only) ---------- */
+if(!isTouch){
+  var radar = document.getElementById('radarWrap');
+  window.addEventListener('mousemove', function(e){
+    var px = (e.clientX/window.innerWidth - 0.5);
+    var py = (e.clientY/window.innerHeight - 0.5);
+    radar.style.transform = 'translate('+(px*14)+'px,'+(py*14)+'px)';
+  });
+}
+
+/* ---------- Scramble reveal ---------- */
+if(!reduceMotion){
+  var scrambleEls = document.querySelectorAll('.scramble');
+  var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ#%&$';
+  scrambleEls.forEach(function(el){
+    var final = el.getAttribute('data-text');
+    var iterations = 0;
+    var interval = setInterval(function(){
+      el.textContent = final.split('').map(function(ch,i){
+        if(i < iterations) return final[i];
+        return chars[Math.floor(Math.random()*chars.length)];
+      }).join('');
+      if(iterations >= final.length) clearInterval(interval);
+      iterations += 1/2;
+    }, 45);
+  });
+}
+
+/* ---------- Logo easter egg: theme cycle ---------- */
+var themes = [
+  {name:'Violet', accent:'#8657ff', bright:'#b494ff', dim:'#4c2fa0'},
+  {name:'Cyan', accent:'#22d9d9', bright:'#7cf0f0', dim:'#0f6e6e'},
+  {name:'Amber', accent:'#ffab2e', bright:'#ffce85', dim:'#8a5510'},
+  {name:'Rose', accent:'#ff4d7e', bright:'#ff9ab4', dim:'#8a1f3d'}
+];
+var themeIdx = 0;
+var logo = document.getElementById('logoClick');
+var toast = document.getElementById('themeToast');
+logo.addEventListener('click', function(){
+  themeIdx = (themeIdx+1) % themes.length;
+  var t = themes[themeIdx];
+  var root = document.documentElement.style;
+  root.setProperty('--accent', t.accent);
+  root.setProperty('--accent-bright', t.bright);
+  root.setProperty('--accent-dim', t.dim);
+  root.setProperty('--accent-glow', hexToRgba(t.accent, 0.45));
+  toast.textContent = 'Theme: '+t.name;
+  toast.classList.add('show');
+  clearTimeout(logo._toastTimeout);
+  logo._toastTimeout = setTimeout(function(){ toast.classList.remove('show'); }, 1600);
+});
+function hexToRgba(hex, a){
+  var r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
+  return 'rgba('+r+','+g+','+b+','+a+')';
+}
+
+})();
+</script>
+<script defer="" src="./index_files/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;7f7b0fd8732c4326aae4b9d58d5c514a&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a174d157e819ff99',t:'MTc4MzQwNjAwNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;" src="./index_files/saved_resource.html"></iframe>
+
+</body></html>
